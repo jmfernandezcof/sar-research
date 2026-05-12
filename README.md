@@ -2,22 +2,26 @@
 
 **Stateless Adversarial Review** — Heterogeneous Multi-Model Supervision for Agentic AI Systems.
 
-Autor de la idea: José María Fernández Gómez (Nomad Prompters).
-Desarrollo técnico: en colaboración iterativa con LLMs (Claude, Gemini, GPT, DeepSeek).
+Idea author: José María Fernández Gómez (Nomad Prompters).
+Technical development: in iterative collaboration with LLMs (Claude, Gemini, GPT, DeepSeek).
 
-## Estado actual
+## Current status
 
-- Paper v0.4 redactado (mayo 2026) con erratum visible en cabecera: §5.3 contenía un claim matemáticamente incorrecto sobre la cobertura del sliding-window overlap. Corregido en sitio; se mantiene el documento como working paper.
-- v0.5 pendiente. Bloqueadores documentados en `research/open-questions.md` (T0 SPOF, M2S/Yang vs statelessness, derivación del overlap desde threat model, tabla de costes).
-- **No enviado a ningún venue.** Decisión consciente: no se publica hasta que el autor humano pueda defender técnicamente cada afirmación. Plan de formación en `learning/00-plan.md`.
+- Paper v0.4 drafted (May 2026), with a visible erratum on the header: §5.3 contained a mathematically incorrect claim about sliding-window overlap coverage. Corrected in place; document kept as a working paper.
+- v0.5 pending. Open blockers documented in `research/open-questions.md` (T0 SPOF, M2S/Yang vs statelessness, overlap derivation from threat model, cost table).
+- **Not submitted to any venue.** Deliberate decision: the paper will not be published until the human author can technically defend every claim. Training plan in `learning/00-plan.md`.
 
-## Estructura del repo
+## Repo structure
 
-- `paper/` — Versiones del paper.
-- `research/` — Trabajo técnico de los modelos: verificación de referencias, preguntas abiertas, diseño de experimentos.
-- `learning/` — Formación del autor humano. Plan en 3 fases hasta poder defender el paper.
+- `paper/` — Paper versions.
+- `research/` — Technical work from the model ensemble: reference verification, open questions, experiment design.
+- `learning/` — Human author training. Three-phase plan toward being able to defend the paper.
 
-## Próximo paso
+## Next step
 
-Empezar Fase 1 del plan de formación: entender el problema antes de defender la solución.
-Ver `learning/00-plan.md`.
+Begin Phase 1 of the training plan: understand the problem before defending the solution.
+See `learning/00-plan.md`.
+
+---
+
+*Spanish version: see [README.es.md](README.es.md).*
